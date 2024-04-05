@@ -1,135 +1,37 @@
-
-/* *{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-     width=border(); 
- }  */
-
-/* .c{
-    background-color: blueviolet; */
-    /* margin: 16px; */
-    /* margin: 100px 10px;
-    padding: 16px;
-    border: 2px solid violet;
-    margin-left: 50px;
-} */
-/* .c1{ */
-    /* background-color: aqua;
-    margin:0px,5px,0px;
-    width: 120px;
-    box-sizing:border-box; */
-    /* p{
-        background-color: brown;
-    }
-    span{
-        width: 250px;
-        background-color: blue;
-    } */
-    
-/* } */
-/* .parent{
-    width: 200px;
+.parent{
+display: grid;
+/* grid-template-columns: 50px 50px 50px; */
+/* grid-template-columns: repeat(4,50px); */
+/* grid-template-rows: 50px 50px 50px;
+grid-template-columns:1fr 1fr 1fr ;
+background-color: yellowgreen   ; */
+/* column-gap: 10px;
+row-gap: 10px; */
+/* border: 2px solid black; */
+}
+/* .child{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;border: 3px solid rgb(154, 17, 17);
+}
+.header{
+     grid: column start 2px;  
+    grid-column-start: 1;
+    grid-column-end: 4;
     background-color: blueviolet;
-    text-align: center;
-    margin: auto 0 0 0;
-
-} */
-
-/* div{  */
-    /* display: block;
-    border: 5px solid black;
-    margin: auto; */
-  /* text-align: center; 
-} */
-/* #p{
-    background-color: blue;
-} */
-/* .p1{
-    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.p2{
-    background-color: aqua;
+.menu{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.footer{
+    grid-column-start: 2;
+    grid-column-end: 4;
 } */
-/* .parent{
-    font-size: 30px;
-
-}
-.child{
-    font-size: 3rem;
-  background-color: aqua;
-  width: 10em;
-} */
-/* .btn{
-    display: block;
-      padding: 16px; 
-     border-radius: 16px;
-     border:none;
-     margin: 10px auto;
-    font-size: 18px;
-    width: 120px;
-}
-.btn1{
-    display: block;
-      padding: 16px; 
-     border-radius: 16px;
-     border:none;
-     margin: 10px auto;
-    /* font-size: 18px; */
-    /* width: 80px;
-    color: rgba(22, 20, 20, 0.991);
-    background-color: rgb(70, 153, 104);
-} */ 
- /* body{
-    height: 100%;
-    background-color: aqua;
-} */
-/* .parent{
- 
-    background-color: rgb(255, 128, 0);
-    height:100% ;
-
-}
-.child{
-    min-height: 200px;
-    width: 50%;
-    background-color: blue;
-    overflow: scroll;
-} */ 
-/* .parent{ */
-    /* padding-left: 20px; */
-    /* background-color: rgb(0, 255, 89); */
-    /* ol{
-        background-color: blue;
-    }
-    ul:first-child{
-        background-color: rgb(34, 255, 0);
-    }
-
-    ul:last-child{
-        background-color: aqua;
-        li:nth-child(3){
-            background-color: rgb(87, 63, 34)
-        }
-        li:nth-child(2){
-            background-color: rgb(98, 26, 215)
-        }
-        li:nth-child(1){
-            background-color: rgb(215, 26, 26)
-        }
-    } */
-    
-/* } */
-.parent ul{
-    background-color: rgb(128, 45, 0);
-    
-    
-    }
-.parent>ul{
-background-color: green;
-
-
-}
-.parent+ul{
-background-color: pink;
+.parent1{
+display: grid;
 }
